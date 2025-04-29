@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+        .label{
+            display: block;
+        }
+        .select {
+            width: 100%;
+            padding: 8px;
+        }
+        .formulario-titulo{
+            background-color: rgb(111, 111, 219);
+            color: whitesmoke;
+            padding: 8px;
+        }
+        .form-line {
+            padding: 8px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="">
+        
+        <div class="form-line">
+            <h1 class="formulario-titulo">Formulário</h1>
+            <label for="">
+                Qual é a capital do Bostil?
+            </label>
+            <div>
+                <div>
+                    <input type="radio" name="capital" id="brasilia">
+                    <label for="brasilia">Brasília Amarela</label>
+                </div>
+                <div>
+                    <input type="radio" name="capital" id="bh">
+                    <label for="bh">Feio Vertical</label>
+                </div>
+                <div>
+                    <input type="radio" name="capital" id="cuiaba">
+                    <label for="cuiaba">Xique-Xique Bahia</label>
+                </div>
+            </div>
+            <div>
+                <label for="">
+                    O que você quer no café da manha?
+                </label>
+                <div>
+                    <input type="checkbox" name="cafe" id="cafe">
+                    <label for="cafe">Que todo mundo vá pro karalho</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="ovos" id="ovos">
+                    <label for="Ovos">0,5KG de Urânio 235</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="bolo" id="bolo">
+                    <label for="bolo">O almoço</label>
+                </div>
+            </div>
+            <div>
+                <label for="estado" class="label">Estado</label>
+                <select name="" id="estado" class="select">
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="AM">Sólido</option>
+                    <option value="RO">Gasoso</option>
+                    <option value="RR">Líquido</option>
+                    <option value="SP">Vegetativo</option>
+                    <option value="RJ">De Emergência</option>
+                    <option value="RS">De Direito</option>
+                    <option value="AC">De Repouso</option>
+                    <option value="TO">De Inexistência</option>
+                </select>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
