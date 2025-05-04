@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: wheat;
+    width: 400px;
+    justify-self: center;
+}
+
+.titulo {
+    background-color: rgb(8, 8, 78);
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.nome {
+    display: block
+}
+div {
+    width: 400px
+}
+
+.nome :nth-child(1) {
+    display: block;
+    margin-bottom: 2px;
+    margin-left: 20px;   
+}
+
+.nome #nome {
+    display: block;
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+}
+
+.email :nth-child(1) {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 20px; 
+}
+
+.email #email {
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+}
+
+.sexo :nth-child(1) {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 20px; 
+}
+.sexo :nth-child(2) {
+    margin-left: 20px;
+}
+.sexo :nth-child(4) {
+    margin-left: 188px;
+}
+
+.cursos :nth-child(1) {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 20px; 
+}
+
+.cursos #cursos {
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+}
+
+.obs :nth-child(1) {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 20px; 
+}
+.obs #observacoes {
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+}
+
+.termos {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+}
+#cadastrar {
+    background-color: green;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#cadastrar:hover {
+    background-color: rgb(9, 196, 9);
+}

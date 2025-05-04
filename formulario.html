@@ -3,24 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulário</title>
 
     <style>
-        .label{
-            display: block;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
         }
+
+        .formulario-titulo {
+            background-color: #6f6fdb;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .form-line {
+            background-color: white;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 16px;
+        }
+
+        .label {
+            display: block;
+            font-weight: bold;
+            margin-top: 12px;
+            color: #333;
+        }
+
+        .select, input[type="radio"], input[type="checkbox"] {
+            margin-top: 6px;
+        }
+
         .select {
             width: 100%;
-            padding: 8px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+            background-color: #f9f9f9;
         }
-        .formulario-titulo{
-            background-color: rgb(111, 111, 219);
-            color: whitesmoke;
-            padding: 8px;
+
+        .form-line div {
+            margin-bottom: 10px;
         }
-        .form-line {
-            padding: 8px;
-            line-height: 1.5;
+
+        input[type="radio"], input[type="checkbox"] {
+            accent-color: #6f6fdb;
+        }
+
+        label {
+            cursor: pointer;
         }
     </style>
 </head>
@@ -31,16 +67,16 @@
         <div class="form-line">
             <h1 class="formulario-titulo">Formulário</h1>
             <label for="">
-                Qual é a capital do Bostil?
+                Qual é a do Brasil?
             </label>
             <div>
                 <div>
                     <input type="radio" name="capital" id="brasilia">
-                    <label for="brasilia">Brasília Amarela</label>
+                    <label for="brasilia">Brasília</label>
                 </div>
                 <div>
                     <input type="radio" name="capital" id="bh">
-                    <label for="bh">Feio Vertical</label>
+                    <label for="bh">Pernambuco</label>
                 </div>
                 <div>
                     <input type="radio" name="capital" id="cuiaba">
@@ -49,33 +85,33 @@
             </div>
             <div>
                 <label for="">
-                    O que você quer no café da manha?
+                    O que você quer no café da manhã?
                 </label>
                 <div>
                     <input type="checkbox" name="cafe" id="cafe">
-                    <label for="cafe">Que todo mundo vá pro karalho</label>
+                    <label for="cafe">Café</label>
                 </div>
                 <div>
                     <input type="checkbox" name="ovos" id="ovos">
-                    <label for="Ovos">0,5KG de Urânio 235</label>
+                    <label for="ovos">Leite</label>
                 </div>
                 <div>
                     <input type="checkbox" name="bolo" id="bolo">
-                    <label for="bolo">O almoço</label>
+                    <label for="bolo">Pão com Alho</label>
                 </div>
             </div>
             <div>
                 <label for="estado" class="label">Estado</label>
                 <select name="" id="estado" class="select">
                     <option value="" disabled selected>Selecione uma opção</option>
-                    <option value="AM">Sólido</option>
-                    <option value="RO">Gasoso</option>
-                    <option value="RR">Líquido</option>
-                    <option value="SP">Vegetativo</option>
-                    <option value="RJ">De Emergência</option>
-                    <option value="RS">De Direito</option>
-                    <option value="AC">De Repouso</option>
-                    <option value="TO">De Inexistência</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="AC">Acre</option>
+                    <option value="TO">Tocantins</option>
                 </select>
             </div>
         </div>
