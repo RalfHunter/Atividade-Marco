@@ -92,6 +92,7 @@ div {
     width: 350px;
     margin-left: 20px;
     height: 40px;
+    resize: none;
 }
 
 .termos {
