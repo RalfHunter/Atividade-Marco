@@ -117,4 +117,5 @@ div {
 
 #cadastrar:hover {
     background-color: rgb(9, 196, 9);
+    cursor: pointer;
 }
